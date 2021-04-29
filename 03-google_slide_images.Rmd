@@ -1,0 +1,35 @@
+---
+title: "Chapter title"
+output: html_document
+---
+
+```{r include=FALSE}
+# store the id of my complete presentation
+gpres <- "162GS7ArBPM4w_rPazcUrpnoEKT7jx9i7fpPQkH_iC_0"
+
+google_slides_image <- function(presentation_id, slide_id) {
+  paste0("https://docs.google.com/presentation/d/", presentation_id, "/export/png?id=", presentation_id, "&pageid=", slide_id)
+}
+```
+
+# Google Slide Images
+
+Here is an image from a Google Slide
+
+```{r echo=FALSE}
+knitr::include_graphics(google_slides_image(gpres, slide_id = "gd5c49c5c55_0_165"))
+```
+
+Here is the same image using `img src`
+
+<img src=`r google_slides_image(gpres, slide_id="gd5c49c5c55_0_165")`>
+
+
+
+
+
+
+
+
+
+
