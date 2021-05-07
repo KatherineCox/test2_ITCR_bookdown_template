@@ -1,7 +1,7 @@
 --- 
 title: "Informatics Technology for Cancer Research (ITCR): Course Name "
 author: "Author Name"
-date: "2021-05-06"
+date: "2021-05-07"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]

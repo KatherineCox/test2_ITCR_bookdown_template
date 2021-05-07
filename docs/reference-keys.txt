@@ -8,6 +8,9 @@ philosophy
 account-setup
 goals-for-this-guide
 overview
+lab-management-roles
+before-you-start
+step-1-create-a-google-account
 learning-objectives
 libraries
 topic-of-section

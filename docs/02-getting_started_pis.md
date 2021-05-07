@@ -1,3 +1,5 @@
+# (PART\*) Getting Started {-}
+
 # PIs and Lab Managers
 
 ## Introduction
@@ -30,4 +32,36 @@ AnVIL uses [Terra](https://anvil.terra.bio/) to run analyses.  Terra operates on
 1. Set budgets and alerts (optional, but highly recommended)
 1. Add users and Workspaces
 
+### Lab Management Roles
+
+While there are many ways to configure your lab, this guide defines the following roles and responsibilities:
+
+- **PI** - The PI sets up the lab’s Google Cloud Account, creates its Google Billing Account(s), and Google Payment Method(s), links Terra with GCP, and invites Lab Managers to be Google Cloud “Billing Account Users.”
+
+- **Lab Manager** (Optional) - A Lab Manager creates or clones Terra Workspaces and manages who can use those Workspaces. The Lab Manager is also responsible for creating one or more Terra Billing Projects configuring GCP budgets and alerts.  Importantly, **lab managers control who can spend lab money** and should have an understanding of Google Cloud Billing and Terra Billing Projects.  Depending on your lab, the PI may choose to be the only Lab Manager, or may appoint trusted lab members to assist.
+
+- **Data Analyst** - A lab member who is granted write + can-compute access on one or more Terra workspaces by a Lab Manager and who will run analyses in Terra.  Data Analysts cannot share Terra Workspaces (this prevents them from enabling others to spend lab money).
+
+### Before you start
+
+- You will need a **credit card or bank account** to activate your free trial and get started.  Don't worry! **You won't be billed until you explicitly turn on automatic billing**, but payment information is needed for verification purposes.
+- Before setting up billing yourself, you may want to check with your institutional procurement office and see if they have a preferred account set-up method with Google (such as a third party reseller or an existing account).
+- To add lab members, you will need to know the Google account they will use to access Terra.  You can complete most setup steps without this information and then add them once you know the correct accounts.
+
+
+### Step 1: Create a Google Account
+
+<img src="02-getting_started_pis_files/figure-html//162GS7ArBPM4w_rPazcUrpnoEKT7jx9i7fpPQkH_iC_0_gd5c49c5c55_0_160.png" title="Diagram showing an overview of the six steps. Step 1 is highlighted." alt="Diagram showing an overview of the six steps. Step 1 is highlighted."  />
+
+
+Terra operates on Google Cloud Platform, so you will need a (free) Google account which will allow you to
+
+- Access the Terra platform to manage team members, data, and analyses
+- Access Google Cloud Platform to manage billing
+- Receive alerts when spending reaches specified thresholds
+
+
+If you do not already have a Google account that you would like to use for accessing Terra, [create one now](https://accounts.google.com/SignUp).
+
+If you would like to create a Google account that is associated with your non-Gmail, institutional email address, follow [these instructions](https://support.terra.bio/hc/en-us/articles/360029186611).
 
