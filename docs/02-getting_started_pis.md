@@ -65,3 +65,38 @@ If you do not already have a Google account that you would like to use for acces
 
 If you would like to create a Google account that is associated with your non-Gmail, institutional email address, follow [these instructions](https://support.terra.bio/hc/en-us/articles/360029186611).
 
+### Step 2: Set up Google Billing
+
+<img src="02-getting_started_pis_files/figure-html//162GS7ArBPM4w_rPazcUrpnoEKT7jx9i7fpPQkH_iC_0_gd5c49c5c55_0_170.png" title="Diagram showing an overview of the six steps. Step 2 is highlighted." alt="Diagram showing an overview of the six steps. Step 2 is highlighted."  />
+
+Terra operates on Google Cloud Platform, and does not charge any markup.  Rather than paying Terra or AnVIL, users set up billing directly with Google Cloud Platform.
+
+**Make sure to use the same Google account ID you use to log into Terra for Google Cloud Billing.**
+
+To set up billing, you must first create a **Google “Billing Account”**.
+You can create multiple Billing Accounts associated with your Google ID.  We recommend creating separate Billing Accounts for different funding sources.
+
+#### Create a Google Billing Account
+
+
+1. Log in to the [Google Cloud Platform](https://console.cloud.google.com/) console using your Google ID.
+    + **Make sure to use the same Google account ID you use to log into Terra.**
+1. If you are a first time user, don’t forget to claim your free credits!
+    + If you haven't been to the console before, once you accept the Terms of Service you will be greeted with an invitation to "Try for Free."
+    +
+<img src="02-getting_started_pis_files/figure-html//162GS7ArBPM4w_rPazcUrpnoEKT7jx9i7fpPQkH_iC_0_gd5c49c5c55_0_152.png" title="Screenshot of the Google Cloud Console with the &quot;Try for Free&quot; button highlighted." alt="Screenshot of the Google Cloud Console with the &quot;Try for Free&quot; button highlighted."  />
+    + Follow the instructions to sign up for a Billing Account and get your credits.
+        + Choose “Individual Account”.  This “billing account” is just for managing billing, so you don’t need to be able to add your lab members.
+        + You will need to give either a credit card or bank account for security. Don't worry! **You won't be billed until you explicitly turn on automatic billing**.
+        +
+<img src="02-getting_started_pis_files/figure-html//162GS7ArBPM4w_rPazcUrpnoEKT7jx9i7fpPQkH_iC_0_gd84a304855_0_145.png" title="Screenshot of the Google Cloud Billing Account Setup, with &quot;Individual Account&quot; highlighted.  Also highlighted is text stating &quot;You won't be charged unless you manually upgrade to a paid account.&quot;" alt="Screenshot of the Google Cloud Billing Account Setup, with &quot;Individual Account&quot; highlighted.  Also highlighted is text stating &quot;You won't be charged unless you manually upgrade to a paid account.&quot;"  />
+
+1. You can view and edit your new Billing Account, by selecting “Billing” from the left-hand menu, or going direction to the billing console [console.cloud.google.com/billing](https://console.cloud.google.com/billing) 
+    +
+<img src="02-getting_started_pis_files/figure-html//162GS7ArBPM4w_rPazcUrpnoEKT7jx9i7fpPQkH_iC_0_gd84a304855_0_153.png" title="Screenshot of the Google Cloud Console dropdown menu, with &quot;Billing&quot; highlighted." alt="Screenshot of the Google Cloud Console dropdown menu, with &quot;Billing&quot; highlighted."  />
+    + Clicking on the Billing Account name will allow you to manage the account, including accessing reports, setting alerts, and managing payments and billing.  We will cover account management in greater detail below.
+    +
+<img src="02-getting_started_pis_files/figure-html//162GS7ArBPM4w_rPazcUrpnoEKT7jx9i7fpPQkH_iC_0_gd84a304855_0_160.png" title="Screenshot of the Google Cloud Console Billing Page, with the name of the new billing account highlighted." alt="Screenshot of the Google Cloud Console Billing Page, with the name of the new billing account highlighted."  />
+
+At any point, you can create additional Billing Accounts using the **Create Account** button.  We recommend creating a new Billing Account for each funding source.
+
